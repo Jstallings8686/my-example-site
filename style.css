@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* this uses a dark shaded image as the header,
+things can be transposed on top of this */
+#header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/img/LAphoto.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    transform: translateY(100%);
+    
+    
+
+}
